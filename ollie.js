@@ -35,7 +35,7 @@ $(document).ready(function(){
 // portfolio carousel
 $('#owl-portfolio').owlCarousel({
     margin:30,
-    dots: true,
+    dots: false,
     responsiveClass:true,
     responsive:{
         0:{
@@ -44,7 +44,7 @@ $('#owl-portfolio').owlCarousel({
         },
         600:{
             items:3,
-            nav:true
+            nav:false
         },
         1000:{
             items:4,
@@ -61,4 +61,22 @@ $('#owl-testmonial').owlCarousel({
     loop:true,
     nav: true,
     dots: false
+})
+
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
 })
