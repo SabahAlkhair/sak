@@ -35,21 +35,21 @@ $(document).ready(function(){
 // portfolio carousel
 $('#owl-portfolio').owlCarousel({
     margin:30,
-    dots: false,
+    dots: true,
     responsiveClass:true,
     responsive:{
         0:{
             items:1,
-            nav:false
+            nav:true
         },
         600:{
             items:3,
-            nav:false
+            nav:true
         },
         1000:{
             items:4,
-            nav:false,
-            loop:false
+            nav:true,
+            loop:true
         }
     }
 });
