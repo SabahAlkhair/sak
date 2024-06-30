@@ -11067,7 +11067,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(9px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
   opacity: .9;
   color: #111;
   letter-spacing: .6px;
@@ -11598,7 +11598,7 @@ pre .code {
 }
 
 .header .carousel .carousel-inner .carousel-title {
-  font-size: calc(40px + (60 - 40) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1300 - 300)));
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
